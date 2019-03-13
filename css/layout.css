@@ -86,3 +86,25 @@ a:hover{
 #title{
   margin-left: 40px;
 }
+
+#schedule{
+
+  display: grid;
+
+  grid-template-rows:   1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  padding-bottom: 20px;
+
+}
+
+.centerText{
+  text-align: center;
+}
+
+.labs{
+  margin-bottom: 40px;
+  border-bottom: solid 1px #c8c8c8;
+  padding-bottom: 40px;
+
+}
