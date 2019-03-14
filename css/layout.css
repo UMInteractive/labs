@@ -110,7 +110,7 @@ a:hover{
 
 }
 
-li{
+ul li{
   list-style: none;
   line-height: 25px;
 }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title v-html="title"></title>
+
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/views.js"></script>
+
+  <script>
+
+  </script>
+
+  <style>
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+      <header v-html="header">
+
+
+    </header>
+    <main>
+
+      <nav id="navRoot" v-html="menu"></nav>
+
+
+      <section>
+        <h1 id="heading">Laser Cutting</h1>
+        <h3>UM School of Architecture Thomas P. Murphy Design Studio Building</h3>
+        <section>
+          <img src="https://www.arc.miami.edu/_assets/images/system-images/murphy-miamiinfocus-cheryl.steiffel-1240x550.jpg" width="100%">
+        <p>
+        The UM SoA has 4 laser cutting machines available for UM SoC students to use strictly for school projects.
+        </p>
+
+        <h2>Materials</h2>
+        <ul>
+          <li>MDF
+            <ul>
+              <li><i>The UM SoA sells 1/8 in MDF sheets</i>
+              </li>
+              <li>24in by 36in - $2.00 Sheet</li>
+              <li>18in by 32in - $1.00 Sheet</li>
+              <li>Misc ~ 17in by 18in - $0.50 Sheet</li>
+              <li>Misc ~ 12in by 32in - $0.50 Sheet</li>
+
+            </ul>
+          </li>
+          <li>Any other materials have to be approved by UM SoA:
+            <ul>
+              <li>Solid Wood</li>
+              <li>Acrylic - Must have proof</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Materials to avoid</h2>
+
+        <ul>
+          <li>PVC (Poly Vinyl Chloride)/vinyl/pleather/artificial leather</li>
+          <li>Thick ( >1mm ) Polycarbonate/Lexan</li>
+          <li>ABS</li>
+          <li> HDPE/milk bottle plastic </li>
+          <li> PolyStyrene Foam </li>
+          <li> PolyPropylene Foam </li>
+          <li>Epoxy</li>
+          <li>Fiberglass</li>
+          <li> Coated Carbon Fiber </li>
+          <li>Anything Edible</li>
+          <li>Material with Sticky Glue Backing </li>
+        </ul>
+
+      </section>
+        <h2>Resources</h2>
+        <ul>
+          <!-- <li><a href="https://carbide3d.com/nomad/workflow/">Nomad CNC Software Workflow</a></li>
+
+          <li><a href="http://learn.cricut.com/">How to use the Cricut</a></li>
+
+          <li><a href="http://www.templatemaker.nl/">Container Template Maker</a></li> -->
+
+
+
+
+        </ul>
+
+      </section>
+
+    </main>
+
+
+    <footer v-html="footer"></footer>
+  </div>
+
+</body>
+
+
+
+
+
+</html>
