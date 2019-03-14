@@ -1,5 +1,5 @@
 window.onload = function () {
-      var menu = '<ul><li><a href="./">Home</a></li><li><a href="3dprinting.html">3D Printing</a></li><li><a href="vinylcutter.html">Vinyl Cutter</a></li><li><a href="cnc.html">CNC</a></li><li><a href="lasercutter.html">Laser Cutter</a></li><li><a href="equipmentlist.html">Equipment List</a></li></ul>';
+      var menu = '<ul><li><a href="./">Home</a></li><li><a href="3dprinting.html">3D Printing</a></li><li><a href="vinylcutter.html">Vinyl Cutter</a></li><li><a href="cnc.html">CNC</a></li><li><a href="lasercutting.html">Laser Cutter</a></li><li><a href="equipmentlist.html">Equipment List</a></li></ul>';
 
       var navRoot = new Vue({
       el: '#navRoot',
