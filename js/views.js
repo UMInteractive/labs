@@ -1,19 +1,12 @@
 window.onload = function () {
+      var menu = '<ul><li><a href="./">Home</a></li><li><a href="3dprinting.html">3D Printing</a></li><li><a href="vinylcutter.html">Vinyl Cutter</a></li><li><a href="cnc.html">CNC</a></li><li><a href="lasercutter.html">Laser Cutter</a></li><li><a href="">Equipment</a></li></ul>';
 
       var navRoot = new Vue({
       el: '#navRoot',
       data: {
-        menu: '<ul><li><a href="./">Home</a></li><li><a href="3DPrinting">3D Printing</a></li><li><a href="PaperCutter">Paper Cutter</a></li></ul>'
+        menu: menu
       }
     });
-
-
-    var navLinks = new Vue({
-    el: '#navLinks',
-    data: {
-      menu: '<ul><li><a href="../">Home</a></li><li><a href="./../3DPrinting">3D Printing</a></li><li><a href="./../PaperCutter">Paper Cutter</a></li></ul>'
-    }
-  });
 
   var header = new Vue({
   el: 'header',
@@ -37,10 +30,11 @@ window.onload = function () {
 /*
 <ul>
   <li><a href="./">Home</a></li>
-  <li><a href="./">Home</a></li>
-
-  <li><a href="3DPrinting">3D Printing</a></li>
-  <li><a href="PaperCutter">Paper Cutter</a></li>
+  <li><a href="3dprinting.html">3D Printing</a></li>
+  <li><a href="vinylcutter.html">Vinyl Cutter</a></li>
+  <li><a href="cnc.html">CNC</a></li>
+  <li><a href="lasercutter.html">Laser Cutter</a></li>
+  <li><a href="">Equipment</a></li>
 </ul>
 
 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>UM Emerging Media Lab</title>
+
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/views.js"></script>
+
+  <script>
+
+  </script>
+
+  <style>
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+      <header v-html="header">
+
+
+    </header>
+    <main>
+
+      <nav id="navRoot" v-html="menu"></nav>
+
+
+      <section>
+        <h1 id="heading">CNC @ UM Emerging Media Lab</h1>
+        <h3>Wolfson, 1st Floor, Room 1018</h3>
+        <section>
+        <p>
+          In the lab, we have the <a href="https://carbide3d.com/nomad/">Nomad 883 Pro</a>. This device allows you to mill and cut various material. Unlike 3D printing, CNC (Computer Numeric Control) Milling, is a subtractive process that removes from your stock material. It is generally, faster then 3D printing.
+        </p>
+
+        <h2>Materials</h2>
+        <ul>
+          <li>Wood</li>
+          <li>Plastics
+            <ul>
+              <li>ABS</li>
+              <li>Acrylic</li>
+              <li>Delrin</li>
+              <li>HDPE</li>
+            </ul>
+          </li>
+          <li>Metal
+            <ul>
+              <li>Aluminum</li>
+              <li>Brass</li>
+            </ul>
+          </li>
+          <li>PCB/Copper</li>
+
+        </ul>
+      </section>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://carbide3d.com/nomad/workflow/">Nomad CNC Software Workflow</a></li>
+
+          <li><a href="http://learn.cricut.com/">How to use the Cricut</a></li>
+
+          <li><a href="http://www.templatemaker.nl/">Container Template Maker</a></li>
+
+
+
+
+        </ul>
+
+      </section>
+
+    </main>
+
+
+    <footer v-html="footer"></footer>
+  </div>
+
+</body>
+
+
+
+
+
+</html>
