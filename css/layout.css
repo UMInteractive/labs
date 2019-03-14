@@ -100,6 +100,7 @@ a:hover{
 
 .centerText{
   text-align: center;
+
 }
 
 .labs{
@@ -107,4 +108,9 @@ a:hover{
   border-bottom: solid 1px #c8c8c8;
   padding-bottom: 40px;
 
+}
+
+li{
+  list-style: none;
+  line-height: 25px;
 }

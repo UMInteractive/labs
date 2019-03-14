@@ -23,9 +23,8 @@
 <body>
 
   <div class="container">
-    <header>
-      <h1 id="title">University of Miami Emerging Media Lab</h1>
-      <h3 id="title">School of Communication Frances L. Wolfson, 1st Floor, Room 1018</h1>
+    <header v-html="header">
+
     </header>
     <main>
 
@@ -33,7 +32,8 @@
 
 
       <section>
-        <h1 id="3d-printing">3D Printing</h1>
+        <h1 id="3d-printing">3D Printing @ The Emerging Media Lab</h1>
+        <h3>Wolfson, 1st Floor, Room 1018</h3>
         <p>At the Lab we have an Ultimaker 3 for more information visit the <a href="https://ultimaker.com/">ultimaker site</a>. The ultimaker 3 is a dual nozzle printer capable of printing 2 colors or one color and a support material.</p>
 
         <p>General filament nozzles are designated as AA cores. Support nozzles are designated as BB cores.</p>
@@ -110,7 +110,7 @@
     </main>
 
 
-    <footer>For more information please contact: uminteractive at gmail dot com</footer>
+    <footer v-html="footer"></footer>
   </div>
 
 </body>

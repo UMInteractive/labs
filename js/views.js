@@ -15,6 +15,22 @@ window.onload = function () {
     }
   });
 
+  var header = new Vue({
+  el: 'header',
+  data: {
+    header: '<h1 id="title">University of Miami Interactive Media Labs</h1>'
+  }
+});
+
+  var footer = new Vue({
+  el: 'footer',
+  data: {
+    footer: 'For more information about the UM Interactive Media Program, <a href="https://interactive.miami.edu/">click here</a>.'
+  }
+});
+
+
+
 
 }
 

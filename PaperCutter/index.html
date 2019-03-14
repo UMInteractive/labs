@@ -23,9 +23,9 @@
 <body>
 
   <div class="container">
-    <header>
-      <h1 id="title">University of Miami Emerging Media Lab</h1>
-      <h3 id="title">School of Communication Frances L. Wolfson, 1st Floor, Room 1018</h1>
+      <header v-html="header">
+
+
     </header>
     <main>
 
@@ -33,7 +33,8 @@
 
 
       <section>
-        <h1 id="heading">Paper Cutter</h1>
+        <h1 id="heading">Paper Cutter @ UM Emerging Media Lab</h1>
+        <h3>Wolfson, 1st Floor, Room 1018</h3>
         <section>
         <p>
           In the lab, we have the <a href="https://home.cricut.com/cricut-maker">Cricut Maker</a>. This device allows you to cut, print, and score:
@@ -66,7 +67,7 @@
     </main>
 
 
-    <footer>For more information please contact: uminteractive at gmail dot com</footer>
+    <footer v-html="footer"></footer>
   </div>
 
 </body>

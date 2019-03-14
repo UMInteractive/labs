@@ -10,6 +10,8 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="js/views.js"></script>
 
+  <meta charset="utf-8">
+
   <script>
 
   </script>
@@ -23,8 +25,8 @@
 <body>
 
   <div class="container">
-    <header>
-      <h1 id="title">University of Miami Interactive Media Labs</h1>
+    <header v-html="header">
+
     </header>
     <main>
 
@@ -45,6 +47,22 @@
             installations.
 
           </p>
+
+          <h4>Features</h4>
+
+          <ul>
+            <li>Physical Computing Parts Cabinet </li>
+            <li>Board Game and Video Game/Console Library</li>
+            <li>Digital Fabrication Area:
+              <ul>
+                <li>Ultimaker 3</li>
+                <li>Nomad 883 Pro</li>
+                <li>Cricut Maker</li>
+              </ul>
+            </li>
+            <li>Building Workbench</li>
+            <li>Large Projection Area</li>
+          </ul>
 
 
 
@@ -97,11 +115,64 @@
 
           <h2 class="centerText">Friday - Lab Open All Day!</h2>
 
+          <h5>For more information please contact: zevenrodriguez@miami.edu</h5>
+
 
 
 
 
         </section>
+
+
+        <section class="labs">
+
+          <h2>User Experience Lab</h2>
+          <h3>School of Communication Frances L. Wolfson, 1st Floor, Room </h3>
+          <p>
+            The Interactive Media User Experience (UX) Lab at the University of Miami is an academic-based research facility that supports interdisciplinary research on understanding how people use information systems. Its main function is to inform
+            web, mobile, gaming, and software interface design based on human attitudes, emotions, and performance data. A variety of research methods are used to collect and analyze findings, including focus groups, ethnography, participatory
+            design, expert reviews, usability testing, and eye tracking.
+          </p>
+
+          <p>The UX Lab was designed to support the University of Miami’s M.F.A. in Interactive Media and provides educational opportunities to students who are focused on obtaining careers in User Experience and Interaction Design. We also offer a
+            full range of UX research services to internal and external clients.
+          </p>
+
+          <h4>The UX Lab is an academic-based research lab that provides the following services:</h4>
+
+          <ul>
+            <li>Usability Testing</li>
+            <li>A/B Testing</li>
+            <li>Expert Review</li>
+            <li>Eye Tracking Evaluation</li>
+            <li>Design Research (Interviews, Focus Groups, Survey, Card Sorts)</li>
+            <li>HCI Research</li>
+          </ul>
+
+          <h4>The UX Lab features:</h4>
+
+          <ul>
+            <li>Eye tracking data using a Tobii X60 eye tracker and Tobii Studio software</li>
+            <li>Event logging</li>
+            <li>Professional audio/video control and recording equipment</li>
+            <li>Mobile observation equipment (camera and platform)</li>
+            <li> Observation room with one-way mirror and multiple monitors to display participants’ screen, live eye gaze views, and other video feeds to facilitate observation</li>
+          </ul>
+
+          <h4>Services</h4>
+
+
+          <p>We offer a number of usability research and testing services. Please contact Dr. Millet for more information at bmillet@miami.edu.</p>
+
+
+          <h4>About</h4>
+          <p> Our team of experienced UX researchers is passionate about creating great user experiences for our clients.</p>
+
+
+
+          <h5>For more information please contact: bmillet@miami.edu</h5>
+        </section>
+
 
         <section class="labs">
           <h2>XR Lab</h2>
@@ -116,6 +187,33 @@
 
           <h2 class="centerText">Lab Open All Day!</h2>
 
+          <h4>Features:</h4>
+          <ul>
+            <li><strong>360 Video Editing Suite</strong>
+              <ul>
+                <li>1 Alienware Area 51</li>
+                <li>Latest 360 Editing software</li>
+              </ul>
+            </li>
+            <li><strong>Large AR/VR Development Space</strong>
+              <ul>
+                <li>3 Alienware Aurora</li>
+                <li>Latest AR/VR Equipment from:
+                  <ul>
+                    <li>Occulus</li>
+                    <li>HTC</li>
+                    <li>Microsoft</li>
+                    <li>Magic Leap</li>
+                  </ul>
+                </li>
+                <li>Large Projection Wall</li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <h5>For more information please contact: zevenrodriguez@miami.edu</h5>
+
 
         </section>
 
@@ -127,7 +225,7 @@
     </main>
 
 
-    <footer>For more information please contact: zevenrodriguez@miami.edu</footer>
+    <footer v-html="footer"></footer>
 
   </div>
 
