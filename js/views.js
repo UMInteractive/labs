@@ -1,7 +1,7 @@
 window.onload = function () {
-      var menu = '<ul><li><a href="./">Home</a></li><li><a href="3dprinting.html">3D Printing</a></li><li><a href="vinylcutter.html">Vinyl Cutter</a></li><li><a href="cnc.html">CNC</a></li><li><a href="lasercutting.html">Laser Cutter</a></li><li><a href="equipmentlist.html">Equipment List</a></li></ul>';
+      var menu = '<ul><li><strong><a href="./">Home</a></strong></li><li><strong>Labs</strong><ul><li><a href="#eml">Emerging Media Lab</a></li><li><a href="#uel">User Experience Lab</a></li><li><a href="#xrl">XR Lab</a></li></ul></li><li><strong>Resources</strong><ul><li><a href="3dprinting.html">3D Printing</a></li><li><a href="vinylcutter.html">Vinyl Cutter</a></li><li><a href="cnc.html">CNC</a></li><li><a href="lasercutting.html">Laser Cutter</a></li><li><a href="">Equipment</a></li></ul></li></ul>';
 
-      var navRoot = new Vue({
+    var navRoot = new Vue({
       el: '#navRoot',
       data: {
         menu: menu
@@ -32,15 +32,26 @@ var title = new Vue({
 
 }
 
-/*
-<ul>
-  <li><a href="./">Home</a></li>
-  <li><a href="3dprinting.html">3D Printing</a></li>
-  <li><a href="vinylcutter.html">Vinyl Cutter</a></li>
-  <li><a href="cnc.html">CNC</a></li>
-  <li><a href="lasercutter.html">Laser Cutter</a></li>
-  <li><a href="">Equipment</a></li>
-</ul>
 
-
-*/
+// <ul>
+//   <li><a href="./">Home</a></li>
+//   <li>
+//     <h5>Labs</h5>
+//     <ul>
+//     <li><a href="#eml">Emerging Media Lab</a></li>
+//     <li><a href="#uel">User Experience Lab</a></li>
+//     <li><a href="#xrl">XR Lab</a></li>
+//     </ul>
+//   </li>
+//   <li>
+//     <h5>Resources</h5>
+//   <ul>
+//     <li><a href="3dprinting.html">3D Printing</a></li>
+//     <li><a href="vinylcutter.html">Vinyl Cutter</a></li>
+//     <li><a href="cnc.html">CNC</a></li>
+//     <li><a href="lasercutter.html">Laser Cutter</a></li>
+//     <li><a href="">Equipment</a></li>
+//   </ul>
+//   </li>
+//
+// </ul>
