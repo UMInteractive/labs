@@ -115,3 +115,9 @@ ul li{
   list-style: none;
   line-height: 25px;
 }
+
+#canecardexpress{
+  width: 324px;
+  display: block;
+  margin: 10px auto;
+}
